@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META NAME="KEYWORDS" CONTENT="alex begg,alex,begg,alexander,portfolio,gallery,reel,visual effects,motion graphics,los angeles,hollywood,animation,effects,graphics,after effects,3ds max,maya,art,matte painting,lighting,textuting">
+<META NAME="DESCRIPTION" CONTENT="Portfolio and art gallery of visual effects and graphics artist Alex Begg">
+<title>alexbegg.com</title>
+<style type="text/css">
+
+body, table, td, div {color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-weight:bold;}
+
+/* START CODE TO CENTER IN PAGE */
+
+* {margin:0;padding:0}
+/* mac hide \*/
+html,body{height:100%;width:100%;}
+/* end hide */
+body {
+background-color: #000000;
+text-align:center;
+margin:0px;
+min-height:360px;/* for good browsers*/
+min-width:360px;/* for good browsers*/
+}
+#outer{
+height:100%;
+width:100%;
+display:table;
+vertical-align:middle;
+}
+#container {
+text-align: center;
+position:relative;
+vertical-align:middle;
+display:table-cell;
+height: 360px;
+}
+#inner {
+width: 100%;
+height: 360px;
+text-align: center;
+margin-left:auto;
+margin-right:auto;
+}
+
+/* END CODE TO CENTER IN PAGE */
+
+#layer_main {
+position:relative;
+width:360px;
+height:360px;
+}
+#layer_loading {
+z-index:1;
+position:absolute;
+top:168px;
+left:0px;
+width:360px;
+height:24px;
+background-image:url(loading.gif);
+background-repeat:no-repeat;
+background-position:center center;
+}
+#layer_imgbottom {
+z-index:2;
+position:absolute;
+top:0px;
+left:0px;
+width:360px;
+height:360px;
+background-image:url(alexbegg2.gif);
+}
+#layer_text {
+z-index:3;
+position:absolute;
+top:320px;
+left:0px;
+width:360px;
+font-size:14px;
+text-align:center;
+visibility:hidden;
+cursor:pointer;
+}
+#layer_imgtop {
+z-index:4;
+position:absolute;
+top:0px;
+left:0px;
+width:360px;
+height:360px;
+background-image:url(alexbegg.gif);
+visibility:visible;
+}
+#layer_over {
+z-index:5;
+position:relative;
+top:0px;
+left:0px;
+width:360px;
+height:360px;
+cursor:pointer;
+}
+
+</style>
+<!--[if IE ]>
+<style type="text/css">
+#container{top:50%}
+#inner{top:-50%;position:relative;}
+</style>
+<![endif]-->
+<script type="text/javascript">
+function vis(act) {
+if (act == 'hide') {
+document.getElementById('layer_imgtop').style.visibility='hidden';
+document.getElementById('layer_text').style.visibility='visible';
+}
+else if (act == 'show') {
+document.getElementById('layer_imgtop').style.visibility='visible';
+document.getElementById('layer_text').style.visibility='hidden';
+}
+}
+</script>
+</head>
+
+<body onload="vis();">
+
+<div id="outer">
+<div id="container">
+<div id="inner">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="360" style="background-image:url(linebg.gif);background-repeat:repeat;background-position:top right;background-color:#000000;">&nbsp;</td>
+    <td width="360" height="360" style="background-image:url(linebg.gif);background-repeat:repeat;background-position:top right;background-color:#000000;">
+    <div id="layer_main">
+    	<div id="layer_loading"></div>
+        <div id="layer_imgbottom"></div>
+        <div id="layer_text" onmouseover="vis('hide');" onmouseout="vis('show');" onclick="location.href='http://alexbegg.carbonmade.com/';">new site coming soon...<br><font style="color:#999999;font-size:2px;">&nbsp;</font><br><font style="color:#999999;font-size:12px;">- click for portfolio -</font></div>
+        <div id="layer_imgtop"></div>
+        <div id="layer_over" onmouseover="vis('hide');" onmouseout="vis('show');" onclick="location.href='http://alexbegg.carbonmade.com/';"></div>
+    </div>
+    </td>
+    <td height="360" style="background-image:url(linebg.gif);background-repeat:repeat;background-position:top left;background-color:#000000;">&nbsp;</td>
+  </tr>
+</table>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

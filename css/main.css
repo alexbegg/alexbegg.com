@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background: black;
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+header > div, footer {
+	background: url('../images/linebg.gif') repeat top right;
+}
+header {
+	margin: 34px 0;
+	width: 100%;
+}
+header .right {
+	background-position: top left;
+}
+header > div {
+	height: 280px;
+	flex-grow: 2;
+}
+header .middle {
+	width: 360px;
+	background-image: url('../images/alexbegg2.gif');
+	flex-grow: 0;
+}
+.video {
+	text-align: center;
+	color: #666666;
+	padding-bottom: 34px;
+}
+footer {
+	margin-bottom: 17px;
+	padding: 17px 0;
+}
+footer .flex {
+	margin: 0 auto;
+	width: 310px;
+	justify-content: space-between;
+}
+footer .flex > div {
+	width: 30%;
+	text-align: center;
+}
+a {
+	color: #9AC2FF;
+}
+a:hover {
+	text-decoration: none;
+}

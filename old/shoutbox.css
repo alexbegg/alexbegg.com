@@ -1,0 +1,119 @@
+/* theme
+ * sensegray.css
+ *
+ */
+
+
+a:link{
+	color : #83795A;
+	text-decoration : none;
+}
+
+a:visited{
+	color : #83795A;
+	text-decoration : none;
+}
+
+a:hover{
+	color : #8D896D;
+	text-decoration : none;
+}
+
+a:active{
+	color : #8D896D;
+	text-decoration : none;
+}
+
+
+body{
+	background-color : #574F33;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : xx-small;
+	scrollbar-3dlight-color : #FFFFFF;
+	scrollbar-arrow-color : #000080;
+	scrollbar-base-color : #C0C0C0;
+	scrollbar-darkshadow-color : #000000;
+	scrollbar-face-color : #C0C0C0;
+	scrollbar-highlight-color : #FFFFFF;
+	scrollbar-shadow-color : #C0C0C0;
+	scrollbar-track-color : #DDDDDD;
+}
+
+.SB_alert {
+	color : #A6852D;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : xx-small;
+	font-weight : bold;
+}
+
+.SB_button {
+	background : #83795A;
+	border : 1 solid #635323;
+	-moz-border-top-colors: #675F43 #635323;
+	-moz-border-right-colors: #675F43 #635323;
+	-moz-border-bottom-colors: #675F43 #635323;
+	-moz-border-left-colors: #675F43 #635323;
+	color : #222200;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	font-weight : bold;
+}
+
+.SB_input {
+	background : #574F33;
+	border : 1 solid #8D896D;
+	-moz-border-top-colors: #675F43 #8D896D;
+	-moz-border-right-colors: #675F43 #8D896D;
+	-moz-border-bottom-colors: #675F43 #8D896D;
+	-moz-border-left-colors: #675F43 #8D896D;
+	color : #8D896D;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+
+.SB_formarea {
+	background-color : #574F33;
+	color : #8D896D;
+	font-size : 10px;
+}
+
+.SB_shoutbox {
+	color : #8D896D;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : xx-small;
+	text-align : left;
+}
+
+a.SB_inlink:link {
+	color : #83795A;
+	text-decoration : none;
+}
+
+a.SB_inlink:visited {
+	color : #83795A;
+	text-decoration : none;
+}
+
+a.SB_inlink:active {
+	color : #8D896D;
+	text-decoration : none;
+}
+
+a.SB_inlink:hover {
+	color : #8D896D;
+	text-decoration : underline;
+}
+
+.SB_table0 {
+	background-color :#574F33;
+	color : #8D896D;
+	font-size : xx-small;
+}
+
+.SB_table1 {
+	background-color : #574F33;
+	color : #8D896D;
+	font-size : xx-small;
+}
+
+blink;
