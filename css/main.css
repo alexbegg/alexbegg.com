@@ -31,7 +31,22 @@ header .middle {
 .video {
 	text-align: center;
 	color: #666666;
-	padding-bottom: 34px;
+	margin-bottom: 34px;
+	position: relative;
+}
+.video .playpause {
+	background-image: url(https://findicons.com/files/icons/2337/wireframe_toolbar_icons/48/playback_play.png);
+	background-repeat: no-repeat;
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	margin: auto;
+	background-size: contain;
+	background-position: center;
 }
 footer {
 	margin-bottom: 17px;
