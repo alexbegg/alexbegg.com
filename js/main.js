@@ -5,6 +5,13 @@ $('#video').hover(function toggleControls() {
         this.setAttribute("controls", "controls")
     }
 });
+$('.playpause').hover(function toggleControls() {
+    if ($("#video").get(0).hasAttribute("controls")) {
+        $("#video").get(0).removeAttribute("controls")
+    } else {
+        $("#video").get(0).setAttribute("controls", "controls")
+    }
+});
 $('#video').parent().click(function () {
     if($(this).children("#video").get(0).paused){
         $(this).children("#video").get(0).play();
